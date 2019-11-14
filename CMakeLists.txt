@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.14)
+project(facebook_practice)
+
+SET(CMAKE_CXX_STANDARD 17)
+
+add_executable(diagonal_difference diagonal_difference.cpp)
+add_executable(designer_pdf_viewer designer_pdf_viewer.cpp)
+add_executable(array_shift array_shift.cpp)
+add_executable(single_linked_list single_linked_list.cpp)
+add_executable(balanced_brackets balanced_brackets.cpp)
+add_executable(queue_using_two_stacks queue_using_two_stacks.cpp)
+add_executable(queue_using_std_queue queue_using_std_queue.cpp)
+add_executable(ice_cream_parlor ice_cream_parlor.cpp)
+add_executable(insertion_1 insertion_1.cpp)
+add_executable(insertion_2 insertion_2.cpp)
+add_executable(quick_sort2 quick_sort2.cpp)
+add_executable(binary_search_insert binary_search_insert.cpp)
