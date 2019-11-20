@@ -53,7 +53,7 @@ int main()
 
         string result = isBalanced(s);
 
-        fout << result << "\n";
+        cout << result << "\n";
     }
 
     fout.close();

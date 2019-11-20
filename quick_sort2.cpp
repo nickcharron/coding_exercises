@@ -10,16 +10,17 @@ ofstream fout(getenv("OUTPUT_PATH"));
 
 void outputArray(const vector<int> &arr){
     for (int i = 0; i<arr.size(); i++){
-        fout << arr[i] << " ";
+        cout << arr[i] << " ";
     }
-    fout << endl;
+    cout << endl;
 }
 
 vector<int> quickSort(vector <int> &arr) {
     if(arr.size() < 2){
         return arr;
     }
-	vector<int> arr_sorted, right, left;
+
+	  vector<int> arr_sorted, right, left;
     int p = arr[0];
     for (vecIt it = arr.begin()+1; it != arr.end(); it++){
         if (*it >= p){
