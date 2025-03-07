@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(facebook_practice)
+project(interview_practice)
 
-SET(CMAKE_CXX_STANDARD 17)
+SET(CMAKE_CXX_STANDARD 20)
 
 add_executable(diagonal_difference diagonal_difference.cpp)
 add_executable(designer_pdf_viewer designer_pdf_viewer.cpp)
@@ -20,3 +20,4 @@ add_executable(breadth_first_search breadth_first_search.cpp)
 add_executable(heap heap.cpp)
 add_executable(spiral_array spiral_array.cpp)
 add_executable(look_and_say look_and_say.cpp) 
+add_executable(simulate_robot simulate_robot.cpp) 
