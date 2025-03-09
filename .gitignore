@@ -1,2 +1,4 @@
 .vscode/
 build/
+domain_specific/build/
+general/build/
